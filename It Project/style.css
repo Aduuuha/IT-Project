@@ -1,0 +1,87 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@800&display=swap");
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+  font-weight: 800;
+  font-family: "Heebo", sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+    font-family: "Popins", sans-serif;
+}
+
+p {
+  color: black;
+  font-weight: 400;
+}
+
+button {
+  cursor: pointer;
+}
+
+
+.header-logo {
+    gap: 10px;
+}
+
+.hero-wrapper {
+    background-image: url(assets/image/hero-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 910px;
+    min-height: 100vh;
+}
+
+.overlay {
+    height: 100%;
+    width: 100%;
+    background: rgba(45, 45, 45, 0.6);
+}
+
+.hero-title {
+    font-size: 60px;
+    margin-top: 300px;
+}
+
+.hero-secondary {
+    margin-top: 100px;
+}
+
+.hero-text {
+    max-width: 1000px;
+    margin-top: 100px;
+}
+
+.catalog-wrapper {
+    gap: 50px;
+}
+
+.catalog-box {
+    gap: 30px;
+}
+
+.catalog-box__img {
+    width: 100px;
+    height: auto;
+}
+
+.footer-wrapper {
+    gap: 20px;
+    background-color: black;
+}
+
+
+.footer-img {
+    height: 50px;
+    width: auto;
+}
